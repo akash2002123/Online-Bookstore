@@ -22,8 +22,12 @@ import com.example.demo.service.CartService;
 @RequestMapping("/api/cart")
 public class CartController {
 
+	private final CartService cartService;
+
 	@Autowired
-	private CartService cartService;
+	public CartController(CartService cartService) {
+		this.cartService = cartService;
+	}
 
 	// Removed JWT validation for simplicity
 

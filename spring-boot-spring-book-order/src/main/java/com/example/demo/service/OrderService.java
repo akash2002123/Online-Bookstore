@@ -2,8 +2,8 @@ package com.example.demo.service;
 
 import java.util.List;
 
-import com.example.demo.DTO.OrderRequestDTO;
-import com.example.demo.DTO.OrderResponseDTO;
+import com.example.demo.dto.OrderRequestDTO;
+import com.example.demo.dto.OrderResponseDTO;
 
 /**
  * OrderService interface provides methods to handle order-related operations.

@@ -3,7 +3,6 @@ package com.example.demo.controller;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Book;
-import com.example.demo.repository.BookRepository;
 import com.example.demo.service.BookService;
 
 /**
@@ -27,11 +25,11 @@ import com.example.demo.service.BookService;
 @RequestMapping("/api/books")
 public class BookController {
 
-	@Autowired
-	private BookService bookService;
+	private final BookService bookService;
 
-	@Autowired
-	private BookRepository bookRepository;
+	public BookController(BookService bookService) {
+		this.bookService = bookService;
+	}
 
 	/**
 	 * GET /api/books : Get all books.
@@ -42,12 +40,6 @@ public class BookController {
 	public List<Book> getAllBooks() {
 		return bookService.getAllBooks();
 	}
-
-	// Uncomment the following method if you want to enable searching by title
-	// @GetMapping("/title/{title}")
-	// public List<Book> findByTitle(@PathVariable String title) {
-	// return bookRepository.findByTitle(title);
-	// }
 
 	/**
 	 * GET /api/books/{id} : Get a book by its ID.

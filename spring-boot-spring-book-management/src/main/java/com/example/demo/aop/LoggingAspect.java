@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
 /**
- * Aspect for logging execution of service methods in the BookService. 
- * Uses Spring AOP.
+ * Aspect for logging execution of service methods in the BookService. Uses
+ * Spring AOP.
  */
 @Aspect
 @Component
@@ -37,8 +37,10 @@ public class LoggingAspect {
 	 */
 	@Before("serviceMethods()")
 	public void logBefore(JoinPoint joinPoint) {
-		logger.info("A method in BookService is about to be executed. Method: " + joinPoint.getSignature().getName()
-				+ ", Arguments: " + Arrays.toString(joinPoint.getArgs()));
+		if (logger.isInfoEnabled()) {
+			logger.info("A method in BookService is about to be executed. Method: {}, Arguments: {}",
+					joinPoint.getSignature().getName(), Arrays.toString(joinPoint.getArgs()));
+		}
 	}
 
 	/**
@@ -49,8 +51,8 @@ public class LoggingAspect {
 	 */
 	@AfterReturning(pointcut = "serviceMethods()", returning = "result")
 	public void logAfterReturning(JoinPoint joinPoint, Object result) {
-		logger.info("A method in BookService has executed successfully. Method: " + joinPoint.getSignature().getName()
-				+ ", Result: " + result);
+		logger.info("A method in BookService has executed successfully. Method: {}, Result: {}",
+				joinPoint.getSignature().getName(), result);
 	}
 
 	/**
@@ -61,7 +63,7 @@ public class LoggingAspect {
 	 */
 	@AfterThrowing(pointcut = "serviceMethods()", throwing = "error")
 	public void logAfterThrowing(JoinPoint joinPoint, Throwable error) {
-		logger.error("An error occurred in BookService. Method: " + joinPoint.getSignature().getName() + ", Error: "
-				+ error.getMessage());
+		logger.error("An error occurred in BookService. Method: {}, Error: {}", joinPoint.getSignature().getName(),
+				error.getMessage());
 	}
 }

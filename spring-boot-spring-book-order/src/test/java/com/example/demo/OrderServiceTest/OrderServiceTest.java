@@ -19,9 +19,9 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.demo.DTO.CartItemDTO;
-import com.example.demo.DTO.OrderRequestDTO;
-import com.example.demo.DTO.OrderResponseDTO;
+import com.example.demo.dto.CartItemDTO;
+import com.example.demo.dto.OrderRequestDTO;
+import com.example.demo.dto.OrderResponseDTO;
 import com.example.demo.entity.Order;
 import com.example.demo.repository.OrderRepository;
 import com.example.demo.service.OrderServiceImpl;

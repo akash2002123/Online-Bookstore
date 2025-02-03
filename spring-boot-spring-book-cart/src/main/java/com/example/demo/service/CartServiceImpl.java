@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.demo.DTO.BookDTO;
+import com.example.demo.dto.BookDTO;
 import com.example.demo.entity.CartItem;
 import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.repository.CartRepository;
@@ -18,13 +18,16 @@ import com.example.demo.repository.CartRepository;
 @Service
 public class CartServiceImpl implements CartService {
 
-	@Autowired
-	private CartRepository cartRepository;
-
-	@Autowired
-	private RestTemplate restTemplate;
+	private final CartRepository cartRepository;
+	private final RestTemplate restTemplate;
 
 	private static final String BOOK_SERVICE_URL = "http://localhost:8085/api/books/";
+
+	@Autowired
+	public CartServiceImpl(CartRepository cartRepository, RestTemplate restTemplate) {
+		this.cartRepository = cartRepository;
+		this.restTemplate = restTemplate;
+	}
 
 	/**
 	 * Retrieves all cart items for a specific user. Fetches book details from the

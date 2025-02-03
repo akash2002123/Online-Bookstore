@@ -17,7 +17,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.demo.DTO.BookDTO;
+import com.example.demo.dto.BookDTO;
 import com.example.demo.entity.CartItem;
 import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.repository.CartRepository;

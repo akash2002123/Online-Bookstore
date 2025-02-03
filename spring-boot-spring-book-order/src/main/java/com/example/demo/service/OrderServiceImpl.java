@@ -3,17 +3,16 @@ package com.example.demo.service;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.demo.DTO.CartItemDTO;
-import com.example.demo.DTO.OrderRequestDTO;
-import com.example.demo.DTO.OrderResponseDTO;
+import com.example.demo.dto.CartItemDTO;
+import com.example.demo.dto.OrderRequestDTO;
+import com.example.demo.dto.OrderResponseDTO;
 import com.example.demo.entity.Order;
+import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.repository.OrderRepository;
 
 /**
@@ -25,13 +24,16 @@ import com.example.demo.repository.OrderRepository;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-	@Autowired
-	private OrderRepository orderRepository;
-
-	@Autowired
-	private RestTemplate restTemplate;
+	private final OrderRepository orderRepository;
+	private final RestTemplate restTemplate;
 
 	private static final String CART_SERVICE_URL = "http://localhost:8085/api/cart/";
+
+	@Autowired
+	public OrderServiceImpl(OrderRepository orderRepository, RestTemplate restTemplate) {
+		this.orderRepository = orderRepository;
+		this.restTemplate = restTemplate;
+	}
 
 	/**
 	 * Creates a new order based on the provided order request data. Fetches cart
@@ -52,12 +54,11 @@ public class OrderServiceImpl implements OrderService {
 		if (cartItems != null) {
 			totalAmount = Arrays.stream(cartItems).mapToDouble(item -> item.getQuantity() * item.getPrice()).sum();
 		}
-		System.out.println(totalAmount);
 
 		// Create order
 		Order order = new Order();
 		order.setUserId(orderRequestDTO.getUserId());
-		order.setBookIds(List.of(cartItems).stream().map(CartItemDTO::getBookId).collect(Collectors.toList()));
+		order.setBookIds(List.of(cartItems).stream().map(CartItemDTO::getBookId).toList());
 		order.setTotalAmount(totalAmount);
 		order.setAddress(orderRequestDTO.getAddress());
 		order.setPaymentStatus("PENDING");
@@ -84,10 +85,7 @@ public class OrderServiceImpl implements OrderService {
 		order.setPaymentStatus("PAID");
 
 		// Set delivery date between 2 to 5 days from now
-		Random random = new Random();
-		int deliveryDays = 2 + random.nextInt(4);
-		LocalDate deliveryDate = LocalDate.now().plusDays(deliveryDays);
-		order.setDeliveryDate(deliveryDate);
+		order.setDeliveryDate(LocalDate.now().plusDays(3));
 
 		Order updatedOrder = orderRepository.save(order);
 
@@ -114,6 +112,9 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public OrderResponseDTO getOrder(Long orderId) {
 		Order order = orderRepository.findById(orderId).orElse(null);
+		if (order == null) {
+			throw new ResourceNotFoundException("Order not found for ID: " + orderId);
+		}
 		return mapToOrderResponseDTO(order);
 	}
 
@@ -126,7 +127,7 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public List<OrderResponseDTO> getOrdersByUserId(Long userId) {
 		List<Order> orders = orderRepository.findByUserId(userId);
-		return orders.stream().map(this::mapToOrderResponseDTO).collect(Collectors.toList());
+		return orders.stream().map(this::mapToOrderResponseDTO).toList();
 	}
 
 	/**

@@ -42,7 +42,7 @@ public class Order {
 	@NotBlank(message = "Payment status cannot be blank")
 	private String paymentStatus;
 
-	@NotNull(message = "Delivery date cannot be null")
+	//@NotNull(message = "Delivery date cannot be null")
 	private LocalDate deliveryDate;
 
 }

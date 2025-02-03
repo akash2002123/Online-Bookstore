@@ -10,20 +10,24 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.DTO.OrderRequestDTO;
-import com.example.demo.DTO.OrderResponseDTO;
+import com.example.demo.dto.OrderRequestDTO;
+import com.example.demo.dto.OrderResponseDTO;
 import com.example.demo.service.OrderService;
 
 /**
- * REST controller for managing orders. 
- * Provides endpoints for creating, retrieving, and processing orders.
+ * REST controller for managing orders. Provides endpoints for creating,
+ * retrieving, and processing orders.
  */
 @RestController
 @RequestMapping("/api/orders")
 public class OrderController {
 
+	private final OrderService orderService;
+
 	@Autowired
-	private OrderService orderService;
+	public OrderController(OrderService orderService) {
+        this.orderService = orderService;
+    }
 
 	/**
 	 * POST /api/orders/checkout : Create a new order.

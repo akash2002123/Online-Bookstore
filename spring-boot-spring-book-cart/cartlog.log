@@ -1,26 +1,26 @@
-2025-02-02T16:01:41.491+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 26564 (C:\Users\2380222\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\spring-boot-spring-book-cart)
-2025-02-02T16:01:41.498+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
-2025-02-02T16:01:41.563+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
-2025-02-02T16:01:41.565+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
-2025-02-02T16:01:41.567+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-02-02T16:01:41.568+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-02-02T16:01:42.446+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-02T16:01:42.582+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
-2025-02-02T16:01:42.856+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
-2025-02-02T16:01:43.393+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
-2025-02-02T16:01:43.408+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-02T16:01:43.409+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-02T16:01:43.472+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-02T16:01:43.473+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1902 ms
-2025-02-02T16:01:43.612+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-02T16:01:43.655+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-02T16:01:43.683+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-02T16:01:43.895+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-02T16:01:43.923+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-02T16:01:44.198+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1368c612
-2025-02-02T16:01:44.200+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-02T16:01:44.244+05:30  WARN 26564 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-02T16:01:44.267+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-02-03T15:16:44.074+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:16:44.083+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:16:44.149+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:16:44.151+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:16:44.154+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-03T15:16:44.154+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-03T15:16:45.097+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:16:45.218+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interface.
+2025-02-03T15:16:45.442+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:16:45.955+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:16:45.969+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:16:45.972+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:16:46.032+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:16:46.032+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1876 ms
+2025-02-03T15:16:46.170+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:16:46.215+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-03T15:16:46.242+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:16:46.449+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:16:46.478+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-03T15:16:46.758+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@561b12c4
+2025-02-03T15:16:46.761+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-03T15:16:46.811+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:16:46.825+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -28,39 +28,716 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-02T16:01:44.999+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-02T16:01:45.049+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-02T16:01:45.446+05:30  WARN 26564 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-02T16:01:45.873+05:30  WARN 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-02-02T16:01:45.929+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-02T16:01:45.969+05:30  WARN 26564 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-02T16:01:46.040+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-02T16:01:46.062+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-02T16:01:46.064+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:01:46.073+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-02T16:01:46.073+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-02T16:01:46.073+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-02T16:01:46.073+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-02T16:01:46.073+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-02T16:01:46.073+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-02T16:01:46.074+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-02T16:01:46.302+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-02T16:01:46.304+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-02T16:01:46.306+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-02T16:01:46.307+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738492306307 with initial instances count: 2
-2025-02-02T16:01:46.311+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
-2025-02-02T16:01:46.312+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738492306312, current=UP, previous=STARTING]
-2025-02-02T16:01:46.314+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
-2025-02-02T16:01:46.333+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
-2025-02-02T16:01:46.334+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
-2025-02-02T16:01:46.344+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 6.47 seconds (process running for 7.31)
-2025-02-02T16:01:46.356+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
-2025-02-02T16:06:46.078+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:11:46.092+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:16:46.098+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:21:49.480+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:26:49.485+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:31:49.492+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:36:49.494+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:41:49.500+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-02T16:46:49.514+05:30  INFO 26564 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:16:47.548+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:16:47.588+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:16:47.913+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:16:48.332+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:16:48.388+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:16:48.442+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:16:48.512+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:16:48.534+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:16:48.538+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:16:48.550+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:16:48.550+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:16:48.550+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:16:48.551+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:16:48.551+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:16:48.551+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:16:48.552+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:16:48.789+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:16:48.791+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:16:48.793+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:16:48.795+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576008795 with initial instances count: 1
+2025-02-03T15:16:48.799+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:16:48.800+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576008800, current=UP, previous=STARTING]
+2025-02-03T15:16:48.802+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:16:48.828+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:16:48.830+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:16:48.850+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 6.65 seconds (process running for 7.559)
+2025-02-03T15:16:48.870+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:21:48.554+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:26:48.562+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:27:26.406+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-03T15:27:26.408+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:27:26.408+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576646408, current=DOWN, previous=UP]
+2025-02-03T15:27:26.408+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:27:26.411+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:27:26.417+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:27:26.423+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:27:26.424+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:27:26.427+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-03T15:27:26.434+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-03T15:27:26.435+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:27:29.441+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:27:29.460+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:27:29.461+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:27:30.738+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:27:30.739+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:27:30.740+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:27:30.741+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:27:30.951+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:27:30.964+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-02-03T15:27:31.039+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:27:31.113+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:27:31.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:27:31.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:27:31.143+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:27:31.143+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 402 ms
+2025-02-03T15:27:31.203+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:27:31.205+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:27:31.214+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:27:31.215+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-03T15:27:31.231+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50e3ff51
+2025-02-03T15:27:31.231+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-03T15:27:31.233+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:27:31.233+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:27:31.271+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:27:31.277+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:27:31.349+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:27:31.473+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:27:31.509+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:27:31.524+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:27:31.554+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:27:31.556+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:27:31.557+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:27:31.557+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:27:31.588+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:27:31.588+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:27:31.589+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:27:31.589+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576651589 with initial instances count: 3
+2025-02-03T15:27:31.590+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:27:31.591+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576651591, current=UP, previous=STARTING]
+2025-02-03T15:27:31.591+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:27:31.600+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:27:31.601+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:27:31.607+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:27:31.609+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 2.084 seconds (process running for 650.318)
+2025-02-03T15:27:31.612+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:29:14.135+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-03T15:29:14.137+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:29:14.137+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576754137, current=DOWN, previous=UP]
+2025-02-03T15:29:14.137+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:29:14.138+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:29:14.145+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:29:14.150+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:29:14.151+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-03T15:29:14.152+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:29:14.160+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-03T15:29:14.161+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:29:17.175+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:29:17.194+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:29:17.194+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:29:18.292+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:29:18.293+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:29:18.294+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:29:18.294+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:29:18.438+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:29:18.448+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-02-03T15:29:18.528+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:29:18.593+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:29:18.594+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:29:18.594+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:29:18.625+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:29:18.625+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 331 ms
+2025-02-03T15:29:18.697+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:29:18.699+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:29:18.708+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:29:18.709+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-02-03T15:29:18.722+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40cd1505
+2025-02-03T15:29:18.722+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-02-03T15:29:18.723+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:29:18.723+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:29:18.756+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:29:18.763+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:29:18.822+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:29:18.926+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:29:18.956+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:29:18.975+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:29:19.002+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:29:19.004+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:29:19.004+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:29:19.004+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:29:19.004+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:29:19.005+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:29:19.005+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:29:19.005+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:29:19.005+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:29:19.005+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:29:19.033+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:29:19.033+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:29:19.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:29:19.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576759038 with initial instances count: 4
+2025-02-03T15:29:19.040+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:29:19.041+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576759041, current=UP, previous=STARTING]
+2025-02-03T15:29:19.041+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:29:19.044+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:29:19.044+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:29:19.050+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.79 seconds (process running for 757.759)
+2025-02-03T15:29:19.051+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:29:19.053+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:30:32.383+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-03T15:30:32.384+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:30:32.384+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576832384, current=DOWN, previous=UP]
+2025-02-03T15:30:32.384+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:30:32.385+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:30:32.390+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:30:32.394+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:30:32.394+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-02-03T15:30:32.402+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:30:32.403+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-02-03T15:30:32.404+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:30:35.410+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:30:35.430+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:30:35.431+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:30:36.745+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:30:36.745+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:30:36.747+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:30:36.747+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:30:36.938+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:30:36.952+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-02-03T15:30:37.013+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:30:37.075+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:30:37.076+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:30:37.076+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:30:37.118+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:30:37.118+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2025-02-03T15:30:37.149+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:30:37.151+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:30:37.158+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:30:37.159+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-02-03T15:30:37.181+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@555c6c8d
+2025-02-03T15:30:37.181+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-02-03T15:30:37.182+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:30:37.182+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:30:37.218+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:30:37.224+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:30:37.301+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:30:37.395+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:30:37.423+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:30:37.441+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:30:37.461+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:30:37.462+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:30:37.482+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:30:37.483+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:30:37.483+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:30:37.483+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576837483 with initial instances count: 4
+2025-02-03T15:30:37.485+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:30:37.485+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576837485, current=UP, previous=STARTING]
+2025-02-03T15:30:37.485+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:30:37.490+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:30:37.490+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:30:37.495+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:30:37.497+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.961 seconds (process running for 836.207)
+2025-02-03T15:30:37.499+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:31:45.476+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-03T15:31:45.478+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:31:45.478+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576905478, current=DOWN, previous=UP]
+2025-02-03T15:31:45.478+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:31:45.479+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:31:45.485+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:31:45.488+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:31:45.489+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-02-03T15:31:45.495+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:31:45.497+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-02-03T15:31:45.497+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:31:48.500+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:31:48.518+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:31:48.518+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:31:49.670+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:31:49.671+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:31:49.672+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:31:49.672+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:31:49.790+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:31:49.798+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-02-03T15:31:49.861+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:31:49.910+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:31:49.911+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:31:49.911+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:31:49.940+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:31:49.941+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+2025-02-03T15:31:49.963+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:31:49.965+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:31:49.970+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:31:49.971+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-02-03T15:31:49.982+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d8c72fc
+2025-02-03T15:31:49.982+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-02-03T15:31:49.983+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:31:49.983+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:31:50.008+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:31:50.013+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:31:50.096+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:31:50.218+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:31:50.251+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:31:50.263+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:31:50.278+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:31:50.279+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:31:50.279+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:31:50.280+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:31:50.295+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:31:50.295+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:31:50.295+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:31:50.295+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576910295 with initial instances count: 4
+2025-02-03T15:31:50.296+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:31:50.296+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576910296, current=UP, previous=STARTING]
+2025-02-03T15:31:50.297+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:31:50.299+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:31:50.299+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:31:50.306+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.721 seconds (process running for 909.016)
+2025-02-03T15:31:50.308+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:31:50.308+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:31:51.660+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-03T15:31:51.662+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:31:51.662+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576911662, current=DOWN, previous=UP]
+2025-02-03T15:31:51.662+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:31:51.663+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:31:51.669+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:31:51.669+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:31:51.674+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:31:51.674+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-02-03T15:31:51.680+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-02-03T15:31:51.681+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:31:54.682+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:31:54.699+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:31:54.699+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-25] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:31:55.738+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:31:55.739+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:31:55.740+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:31:55.740+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:31:55.864+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:31:55.871+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-02-03T15:31:55.925+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:31:55.982+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:31:55.983+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:31:55.983+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:31:56.018+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:31:56.018+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 278 ms
+2025-02-03T15:31:56.047+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:31:56.049+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:31:56.056+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:31:56.056+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-02-03T15:31:56.068+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cdbb17d
+2025-02-03T15:31:56.068+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-02-03T15:31:56.069+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:31:56.070+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:31:56.095+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:31:56.101+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:31:56.168+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:31:56.255+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:31:56.287+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:31:56.299+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:31:56.313+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:31:56.314+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:31:56.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:31:56.330+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:31:56.331+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:31:56.331+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:31:56.331+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576916331 with initial instances count: 4
+2025-02-03T15:31:56.333+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:31:56.333+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576916333, current=UP, previous=STARTING]
+2025-02-03T15:31:56.333+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:31:56.337+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:31:56.338+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:31:56.343+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:31:56.345+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.583 seconds (process running for 915.054)
+2025-02-03T15:31:56.346+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:32:10.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-03T15:32:10.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:32:10.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576930038, current=DOWN, previous=UP]
+2025-02-03T15:32:10.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:32:10.039+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:32:10.047+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:32:10.052+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:32:10.053+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-02-03T15:32:10.056+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:32:10.061+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-02-03T15:32:10.062+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:32:13.074+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:32:13.092+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:32:13.092+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-31] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:32:14.108+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:32:14.109+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:32:14.110+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:32:14.110+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:32:14.223+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:32:14.230+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-02-03T15:32:14.287+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:32:14.336+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:32:14.338+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:32:14.339+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:32:14.368+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:32:14.369+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 259 ms
+2025-02-03T15:32:14.392+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:32:14.394+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:32:14.399+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:32:14.401+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-02-03T15:32:14.411+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15fada13
+2025-02-03T15:32:14.412+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-02-03T15:32:14.413+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:32:14.413+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:32:14.445+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:32:14.449+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:32:14.537+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:32:14.626+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:32:14.652+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:32:14.671+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:32:14.686+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:32:14.687+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:32:14.701+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:32:14.701+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:32:14.702+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:32:14.702+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738576934702 with initial instances count: 4
+2025-02-03T15:32:14.703+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:32:14.703+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738576934703, current=UP, previous=STARTING]
+2025-02-03T15:32:14.703+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:32:14.710+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:32:14.711+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:32:14.712+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:32:14.719+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.56 seconds (process running for 933.429)
+2025-02-03T15:32:14.721+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:37:14.691+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:41:40.241+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-02-03T15:41:40.243+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:41:40.243+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738577500243, current=DOWN, previous=UP]
+2025-02-03T15:41:40.243+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:41:40.245+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:41:40.249+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:41:40.251+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:41:40.251+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-02-03T15:41:40.256+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:41:40.258+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-02-03T15:41:40.259+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:41:43.271+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:41:43.288+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:41:43.288+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-37] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:41:44.517+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:41:44.517+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:41:44.519+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:41:44.519+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:41:44.640+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:41:44.647+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-02-03T15:41:44.699+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:41:44.749+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:41:44.750+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:41:44.750+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:41:44.786+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:41:44.786+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 267 ms
+2025-02-03T15:41:44.811+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:41:44.814+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:41:44.821+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:41:44.821+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-02-03T15:41:44.833+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@449a926c
+2025-02-03T15:41:44.834+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-02-03T15:41:44.836+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:41:44.836+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:41:44.867+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:41:44.874+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:41:44.953+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:41:45.048+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:41:45.078+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:41:45.094+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:41:45.114+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:41:45.115+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:41:45.134+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:41:45.135+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:41:45.135+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:41:45.135+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738577505135 with initial instances count: 4
+2025-02-03T15:41:45.137+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:41:45.137+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738577505137, current=UP, previous=STARTING]
+2025-02-03T15:41:45.137+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:41:45.140+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:41:45.140+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:41:45.147+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.802 seconds (process running for 1503.857)
+2025-02-03T15:41:45.148+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:41:45.149+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:46:45.118+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:48:35.932+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-03T15:48:35.934+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:48:35.934+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738577915934, current=DOWN, previous=UP]
+2025-02-03T15:48:35.934+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:48:35.936+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:48:35.942+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:48:35.949+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:48:35.950+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-02-03T15:48:35.950+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:48:35.962+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-02-03T15:48:35.964+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:48:38.976+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:48:38.993+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:48:38.993+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-43] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:48:40.160+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:48:40.160+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:48:40.161+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:48:40.161+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:48:40.300+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:48:40.308+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-02-03T15:48:40.376+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:48:40.422+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:48:40.422+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:48:40.422+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:48:40.450+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:48:40.450+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2025-02-03T15:48:40.472+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:48:40.474+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:48:40.482+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:48:40.483+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-02-03T15:48:40.494+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18469826
+2025-02-03T15:48:40.494+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-02-03T15:48:40.495+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:48:40.495+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:48:40.523+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:48:40.528+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:48:40.618+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:48:40.701+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:48:40.732+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:48:40.744+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:48:40.762+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:48:40.763+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:48:40.764+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:48:40.780+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:48:40.780+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:48:40.780+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:48:40.781+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738577920781 with initial instances count: 4
+2025-02-03T15:48:40.782+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:48:40.782+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738577920782, current=UP, previous=STARTING]
+2025-02-03T15:48:40.782+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:48:40.786+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:48:40.787+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:48:40.793+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.729 seconds (process running for 1919.503)
+2025-02-03T15:48:40.795+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:48:40.797+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:49:13.029+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-03T15:49:13.030+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T15:49:13.030+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738577953030, current=DOWN, previous=UP]
+2025-02-03T15:49:13.030+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:49:13.031+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T15:49:13.038+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T15:49:13.042+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:49:13.043+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2025-02-03T15:49:13.047+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:49:13.054+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-02-03T15:49:13.056+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T15:49:16.070+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T15:49:16.088+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T15:49:16.088+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [Thread-49] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-03T15:49:17.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Starting SpringBootSpringBookCartApplication using Java 21.0.5 with PID 22688 (C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart\target\classes started by 2380222 in C:\Users\2380222\git\Project_BootStore\spring-boot-spring-book-cart)
+2025-02-03T15:49:17.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : No active profile set, falling back to 1 default profile: "default"
+2025-02-03T15:49:17.316+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:1234
+2025-02-03T15:49:17.316+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=spring-boot-spring-book-cart, profiles=[default], label=null, version=bfebc2fa9d5ae6389c244f35d9300315ac0fbb13, state=
+2025-02-03T15:49:17.439+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-03T15:49:17.446+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-02-03T15:49:17.500+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c659dd90-82fd-3132-93fb-19be6bb9f885
+2025-02-03T15:49:17.555+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-02-03T15:49:17.555+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-03T15:49:17.555+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-03T15:49:17.587+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-03T15:49:17.587+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 271 ms
+2025-02-03T15:49:17.613+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-03T15:49:17.614+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-03T15:49:17.620+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-03T15:49:17.620+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-02-03T15:49:17.630+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e46c246
+2025-02-03T15:49:17.630+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-02-03T15:49:17.631+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-03T15:49:17.631+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-03T15:49:17.656+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-03T15:49:17.661+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T15:49:17.724+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-03T15:49:17.805+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-03T15:49:17.830+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-03T15:49:17.843+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-03T15:49:17.857+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-03T15:49:17.858+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-03T15:49:17.859+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T15:49:17.870+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T15:49:17.871+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-03T15:49:17.871+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-03T15:49:17.871+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1738577957871 with initial instances count: 4
+2025-02-03T15:49:17.873+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status UP
+2025-02-03T15:49:17.873+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738577957873, current=UP, previous=STARTING]
+2025-02-03T15:49:17.873+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T15:49:17.875+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-02-03T15:49:17.876+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-02-03T15:49:17.882+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T15:49:17.883+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .e.d.SpringBootSpringBookCartApplication : Started SpringBootSpringBookCartApplication in 1.723 seconds (process running for 1956.593)
+2025-02-03T15:49:17.886+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-03T15:54:17.867+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T15:59:17.876+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:04:17.891+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:08:28.596+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-03T16:08:28.598+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-03T16:08:28.602+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-03T16:08:28.746+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: addCartItem, Arguments: [CartItem(id=null, userId=1, bookId=6, quantity=3, price=0.0, bookName=null)]
+2025-02-03T16:08:28.944+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: addCartItem, Result: CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)
+2025-02-03T16:08:33.496+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-2] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:08:33.773+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-2] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:08:43.893+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-3] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:08:43.945+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-3] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:09:17.897+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:10:17.241+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-5] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:10:17.279+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-5] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:13:19.688+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-6] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:13:19.747+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-6] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:14:17.904+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:14:46.935+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-9] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:14:46.971+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-9] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:15:10.879+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:15:10.945+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-1] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:16:19.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - Re-registering apps/SPRING-BOOT-SPRING-BOOK-CART
+2025-02-03T16:16:19.315+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T16:16:19.322+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T16:16:30.746+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-3] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:16:30.783+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-3] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-02-03T16:16:49.301+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-03T16:16:49.319+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-03T16:17:45.948+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-5] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: getCartItems, Arguments: [1]
+2025-02-03T16:17:46.010+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-5] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: getCartItems, Result: [CartItem(id=8, userId=1, bookId=6, quantity=10, price=12.35, bookName=Can't Hurt Me), CartItem(id=9, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me), CartItem(id=10, userId=1, bookId=6, quantity=3, price=12.35, bookName=Can't Hurt Me)]
+2025-02-03T16:40:22.950+05:30  WARN 22688 --- [spring-boot-spring-book-cart] [HikariPool-10 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Thread starvation or clock leap detected (housekeeper delta=22m34s714ms759µs800ns).
+2025-02-03T16:41:22.613+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:46:22.623+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:51:22.638+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T16:56:22.647+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T17:01:22.662+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T17:06:22.666+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T17:11:22.674+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-03T17:13:01.777+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-6] com.example.demo.aop.LoggingAspect       : A method in CartService is about to be executed. Method: clearCart, Arguments: [1]
+2025-02-03T17:13:01.814+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [http-nio-8083-exec-6] com.example.demo.aop.LoggingAspect       : A method in CartService has executed successfully. Method: clearCart, Result: null
+2025-02-03T17:14:41.803+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-03T17:14:41.805+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SPRING-BOOT-SPRING-BOOK-CART with eureka with status DOWN
+2025-02-03T17:14:41.805+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1738583081805, current=DOWN, previous=UP]
+2025-02-03T17:14:41.806+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083: registering service...
+2025-02-03T17:14:41.807+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-03T17:14:41.813+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-03T17:14:41.818+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03T17:14:41.821+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-02-03T17:14:41.825+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - registration status: 204
+2025-02-03T17:14:41.827+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2025-02-03T17:14:41.827+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-03T17:14:44.840+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-03T17:14:44.857+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SPRING-BOOT-SPRING-BOOK-CART/LTIN562462.cts.com:spring-boot-spring-book-cart:8083 - deregister  status: 200
+2025-02-03T17:14:44.857+05:30  INFO 22688 --- [spring-boot-spring-book-cart] [RMI TCP Connection(142)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
