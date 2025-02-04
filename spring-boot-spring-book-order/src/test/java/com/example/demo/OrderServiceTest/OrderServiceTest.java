@@ -14,9 +14,11 @@ import java.util.Optional;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.demo.dto.CartItemDTO;
@@ -109,9 +111,7 @@ public class OrderServiceTest {
     @Test
     public void testGetOrder() {
         when(orderRepository.findById(1L)).thenReturn(Optional.of(order));
-
         OrderResponseDTO result = orderService.getOrder(1L);
-
         assertEquals(1L, result.getOrderId());
         assertEquals(1L, result.getUserId());
         assertEquals(250.0, result.getTotalAmount());
