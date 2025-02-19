@@ -1,0 +1,55 @@
+=====User====
+Sign Up -> http://localhost:8085/auth/new
+{
+    "name": "Sandeep",
+    "email": "sandy@example.com",
+    "password": "sandeep@123",
+    "roles": "USER"
+}
+
+Sign In -> http://localhost:8085/auth/authenticate
+{
+    "username":"Sandeep",
+    "password":"sandeep@123"
+}
+
+Get roles by name -> http://localhost:8085/auth/getroles/Sandeep
+
+
+=====Book=====
+Create Book ->  localhost:8085/api/books  (ADMIN)
+{
+  "title": "xyz",
+  "author": "akash",
+  "genre": "Autobiography",
+  "price": 11
+}
+
+Get Book By Id -> http://localhost:8085/api/books/{id}
+Get All Books -> http://localhost:8085/api/books
+Delete Book By Id -> http://localhost:8085/api/books/{id}
+Search By Any Param -> http://localhost:8085/api/books/search?...
+
+
+=====Cart=====
+Get Cart By Id -> http://localhost:8085/api/cart/{id}  
+Add Book To Cart -> http://localhost:8085/api/cart  (REST !!!!!!)
+{
+  "userId": 5,
+  "bookId": 1,
+  "quantity": 2
+}
+
+Delete cart by id -> http://localhost:8085/api/cart/{id}
+Clear Cart -> http://localhost:8085/api/cart/clear/{id}
+
+=====Order=====
+Checkout -> http://localhost:8085/api/orders/checkout (Rest!!!!)
+{
+  "userId": 1,
+  "address": "123 Main St, Springfield"
+}
+
+Payment -> http://localhost:8085/api/orders/pay/{id}
+Get Order By Id -> http://localhost:8085/api/orders/{id}
+Get all orders by id -> http://localhost:8085/api/orders/user/{id}
