@@ -1,8 +1,12 @@
 package com.example.demo.controller;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.apache.hc.core5.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -38,8 +42,15 @@ public class CartController {
 	 * @return the list of cart items
 	 */
 	@GetMapping("/{userId}")
-	public List<CartItem> getCartItems(@PathVariable Long userId) {
-		return cartService.getCartItems(userId);
+	public ResponseEntity<Object> getCartItems(@PathVariable Long userId) {
+	    List<CartItem> cartItems = cartService.getCartItems(userId);
+	    if (cartItems.isEmpty()) {
+	        Map<String, String> response = new HashMap<>();
+	        response.put("message", "Empty cart");
+	        return ResponseEntity.status(HttpStatus.SC_NOT_FOUND).body(response);
+	    } else {
+	        return ResponseEntity.ok(cartItems);
+	    }
 	}
 
 	/**

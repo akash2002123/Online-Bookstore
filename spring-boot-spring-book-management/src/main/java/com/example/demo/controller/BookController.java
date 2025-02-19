@@ -1,8 +1,11 @@
 package com.example.demo.controller;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
+import org.apache.hc.core5.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -37,8 +40,15 @@ public class BookController {
 	 * @return the list of books
 	 */
 	@GetMapping
-	public List<Book> getAllBooks() {
-		return bookService.getAllBooks();
+	public ResponseEntity<Object> getAllBooks() {
+	    List<Book> books = bookService.getAllBooks();
+	    if (books.isEmpty()) {
+	        Map<String, String> response = new HashMap<>();
+	        response.put("message", "No books available");
+	        return ResponseEntity.status(HttpStatus.SC_NOT_FOUND).body(response);
+	    } else {
+	        return ResponseEntity.ok(books);
+	    }
 	}
 
 	/**
@@ -49,11 +59,16 @@ public class BookController {
 	 *         with status 404 (Not Found)
 	 */
 	@GetMapping("/{id}")
-	public ResponseEntity<Book> getBookById(@PathVariable Long id) {
-		Optional<Book> book = bookService.getBookById(id);
-		return book.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+	public ResponseEntity<Object> getBookById(@PathVariable Long id) {
+	    Optional<Book> book = bookService.getBookById(id);
+	    if (book.isPresent()) {
+	        return ResponseEntity.ok(book.get());
+	    } else {
+	        Map<String, String> response = new HashMap<>();
+	        response.put("message", "Book not found with id " + id);
+	        return ResponseEntity.status(HttpStatus.SC_NOT_FOUND).body(response);
+	    }
 	}
-
 	/**
 	 * POST /api/books : Create a new book.
 	 * 
@@ -95,11 +110,19 @@ public class BookController {
 	 * @return the ResponseEntity with status 204 (No Content)
 	 */
 	@DeleteMapping("/{id}")
-	public ResponseEntity<Void> deleteBook(@PathVariable Long id) {
-		bookService.deleteBook(id);
-		return ResponseEntity.noContent().build();
+	public ResponseEntity<Object> deleteBook(@PathVariable Long id) {
+	    Optional<Book> book = bookService.getBookById(id);
+	    if (book.isPresent()) {
+	        bookService.deleteBook(id);
+	        Map<String, String> response = new HashMap<>();
+	        response.put("message", "Book deleted with id " + id);
+	        return ResponseEntity.ok(response);
+	    } else {
+	        Map<String, String> response = new HashMap<>();
+	        response.put("message", "Book not found with id " + id);
+	        return ResponseEntity.status(HttpStatus.SC_NOT_FOUND).body(response);
+	    }
 	}
-
 	/**
 	 * GET /api/books/search : Search for books by various criteria.
 	 * 
@@ -111,9 +134,18 @@ public class BookController {
 	 * @return the list of books matching the search criteria
 	 */
 	@GetMapping("/search")
-	public List<Book> searchBooks(@RequestParam(required = false) String title,
-			@RequestParam(required = false) String author, @RequestParam(required = false) String genre,
-			@RequestParam(required = false) Double minPrice, @RequestParam(required = false) Double maxPrice) {
-		return bookService.searchBooks(title, author, genre, minPrice, maxPrice);
+	public ResponseEntity<Object> searchBooks(@RequestParam(required = false) String title,
+	                                     @RequestParam(required = false) String author,
+	                                     @RequestParam(required = false) String genre,
+	                                     @RequestParam(required = false) Double minPrice,
+	                                     @RequestParam(required = false) Double maxPrice) {
+	    List<Book> books = bookService.searchBooks(title, author, genre, minPrice, maxPrice);
+	    if (books.isEmpty()) {
+	        Map<String, String> response = new HashMap<>();
+	        response.put("message", "No books found with the given query");
+	        return ResponseEntity.status(HttpStatus.SC_NOT_FOUND).body(response);
+	    } else {
+	        return ResponseEntity.ok(books);
+	    }
 	}
 }
